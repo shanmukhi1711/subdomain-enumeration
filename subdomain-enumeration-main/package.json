@@ -1,0 +1,39 @@
+{
+  "name": "subscope-subdomain-enum",
+  "version": "1.0.0",
+  "description": "SubScope - Authorized Subdomain Enumeration & Security Discovery Prototype",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server": "node server/index.js",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "subdomain-enumeration",
+    "cybersecurity",
+    "reconnaissance",
+    "attack-surface",
+    "authorized-assessment"
+  ],
+  "author": "SubScope Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "lucide-react": "^0.378.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.5.5",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19",
+    "vite": "^5.2.11"
+  }
+}
